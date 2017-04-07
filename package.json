@@ -6,7 +6,9 @@
   "author": "Gilad Lev-Ari <giladl82@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "axios": "0.15.2",

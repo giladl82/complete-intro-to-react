@@ -20,7 +20,8 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
+        include: path.resolve(__dirname + 'js')
       }
     ]
   }
