@@ -6,16 +6,19 @@ const Search = React.createClass({
   render () {
     return (
       <div className='search'>
-        {/*
-        <pre><code>{JSON.stringify(preload, null, 4) }</code></pre>
-      */}
-        {
-          preload.shows.map((show) => {
+        <header>
+          <h1>
+            svideo
+          </h1>
+          <input type='text' placeholder='Search' />
+        </header>
+        <div>
+          {preload.shows.map((show) => {
             return (
               <ShowCard {...show} key={show.imdbID} />
             )
-          })
-        }
+          }) }
+        </div>
       </div>
     )
   }
