@@ -6,6 +6,5 @@
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-  "editor.wordWrap": true,
-  "editor.wrappingColumn": 100
+  "editor.wordWrap": "wordWrapColumn"  
 }

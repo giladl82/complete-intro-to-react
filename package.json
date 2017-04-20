@@ -10,7 +10,9 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server",
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest",
+    "start": "NODE_ENV=server node server.js",
+    "build:prod":  "NODE_ENV=production webpack -p"
   },
   "dependencies": {
     "axios": "0.15.2",
