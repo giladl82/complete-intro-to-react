@@ -5,5 +5,7 @@
   "editor.tabSize": 2,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "editor.wordWrap": true
+   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "editor.wordWrap": true,
+  "editor.wrappingColumn": 100
 }
